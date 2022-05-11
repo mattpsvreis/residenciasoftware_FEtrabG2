@@ -10,7 +10,10 @@
     --bgmain: #101010;
     --bgnavbar: #070707;
     --bgtransparent: #101010aa;
+    --bgfooter: #070707;
+
     --txtmain: aliceblue;
+
     --shadowmain: #b749f7;
 }
 
@@ -49,14 +52,38 @@ a {
 
 /* RESPONSIVE */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 375px) {
+    .bg-header {
+        background-position-y: -50px;
+    }
+}
 
+@media screen and (min-width: 425px) {
+    .bg-header {
+        background-position-y: -100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bg-header {
+        background-position-y: -500px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-
+    .bg-header {
+        background-position-y: -700px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
+    .bg-header {
+        background-position-y: -900px;
+    }
+}
 
+@media screen and (min-width: 1400px) {
+    .bg-header {
+        background-position-y: -1100px;
+    }
 }

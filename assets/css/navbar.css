@@ -35,13 +35,9 @@
 
 .navbar-options img {
     margin-right: 12px;
-    width: 50px;
+    width: 60px;
     border-radius: 50%;
     transition: 0.3s;
-}
-
-.navbar-logo img {
-    box-shadow: 0px 0px 12px var(--shadowmain);
 }
 
 .navbar-logo {
@@ -144,6 +140,10 @@
     .navbar-option {
         font-size: 16px;
     }
+
+    .navbar-options img {
+        width: 70px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -153,6 +153,10 @@
     
     .navbar-toggle {
         margin-right: 30px;
+    }
+
+    .navbar-options img {
+        width: 85px;
     }
 }
 
