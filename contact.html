@@ -47,53 +47,139 @@
         </div>
     </header>
 
-    <!-- Container-Form -->
+       <!-- Container-Form -->
 
     <div class="container-form">
         <div class="top-form">
             <!-- <h2>Entre em contato, nerd!</h2> -->
-            <p>Entre em contato, nerd! 🧙🧙‍♀️</p>
+            <p>Entre em contato, nerd! 🧙🧙‍♀️ <br>
+                Receba nossa coluna diária geek.
+            </p>
+        </div>
+
+        <div class="englobar">
+
             <div class="formulario">
                 <form>
                     <fieldset>
                         <legend>Detalhes de contato</legend>
+
                         <div>
-                            <label for="nome">Nome:</label>
-                            <input type="text" name="nome" id="nome">
+                            <!-- <label for="nome">Nome:</label> -->
+                            <input type="text" name="nome" id="nome" placeholder="Nome">
                         </div>
+
                         <div>
-                            <label for="email">Email:</label>
-                            <input type="text" name="email" id="email">
+                            <!-- <label for="email">Email:</label> -->
+                            <input type="text" name="email" id="email" placeholder="Email">
                         </div>
+
+                        <div>
+                            <!-- <label for="mensagem">Mensagem:</label> -->
+                            <textarea name=mensagem id="mensagem" placeholder="Deixe sua mensagem  😄"></textarea>
+                        </div>
+
                     </fieldset>
 
-                    <fieldset>
-                        <legend>Sugestões e comentários:</legend>
-                        <div>
-                            <label for="mensagem">Mensagem:</label>
-                            <textarea name="mensagem" id="mensagem"></textarea>
-                        </div>
                     </fieldset>
+
 
                     <fieldset>
                         <legend>Deseja receber nossa newsletter?</legend>
+
                         <div>
-                            <label for="sim">Sim</label>
-                            <input class="radio" type="radio" name="option" id="sim">
-                            
-                            <label for="sim">Não</label>
-                            <input class="radio" type="radio" name="option" id="nao">
+                            <!-- <label for="simounao">Deseja receber nossa newsletter?</label> -->
+                            <select id="" name="simounao">
+                                <option value="australia">Sim</option>
+                                <option value="canada">Não</option>
+                            </select>
+                        </div>
+
+                    </fieldset>
+
+
+                    <fieldset>
+                        <div class="alternativa">
+                            <div class="captcha">
+                                <div class="spinner">
+                                    <label>
+                                        <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                                        <span class="checkmark"><span>&nbsp;</span></span>
+                                    </label>
+                                </div>
+                                <div class="text">
+                                    I'm not a robot
+                                </div>
+                                <div class="logo">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/800px-RecaptchaLogo.svg.png" />
+                                    <p>reCAPTCHA</p>
+                                    <small>Privacy - Terms</small>
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
+
+
                     <div class="botao">
                         <input class="editbotao" type="submit" value="Enviar">
                     </div>
                 </form>
+
+
             </div>
+            <!-- Fim formulário -->
+
+            <!-- inicio right side  -->
+            <div class="rightside">
+
+                <div class="top-form">
+                    <!-- <h2>Entre em contato, nerd!</h2> -->
+                    <p>É um prazer ter você aqui. <br>
+                        Nos encontre nas redes sociais. 👨🏿‍💻
+                    </p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><a href="">
+                                <img src="./assets/icons/001-youtube.png" alt="Youtube">
+                            </a></li>
+
+                        <li><a href="">
+                                <img src="./assets/icons/002-pinterest.png" alt="Pinterest">
+                            </a></li>
+
+                        <li><a href="">
+                                <img src="./assets/icons/003-instagram.png" alt="Instagram">
+                            </a></li>
+
+
+                        <li><a href="">
+                                <img src="./assets/icons/005-facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+
+                        <li><a href="">
+                                <img src="./assets/icons/006-tiktok.png" alt="Tiktok">
+                            </a>
+                        </li>
+
+                        <li><a href="">
+                                <img src="./assets/icons/004-linkedin.png" alt="Linkedin">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
         </div>
     </div>
 
-    <!-- Fim-Form -->
+    <!-- Fim-Container-Form -->
 
     <footer id="footer">
         <div class="container-footer">
