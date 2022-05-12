@@ -432,6 +432,7 @@ input[type="checkbox"]:checked+.checkmark>span:before {
     justify-content: center;
     margin: auto;
     /* align-items: center; */
+    max-width: 450px;
 }
 
 .rightside ul li {
