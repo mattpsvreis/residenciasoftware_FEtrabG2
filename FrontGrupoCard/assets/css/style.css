@@ -1,0 +1,51 @@
+body {
+  background-color: #000000;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.cards {
+  background-color: #060027;
+  width: 20rem;
+  height: 28.125rem;
+  position: relative;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.foto {
+  display: flex;
+  justify-content: center;
+}
+.foto-pessoa {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  margin-top: 1.25rem;
+}
+.nome {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.563rem;
+  font-family: "Poppins";
+}
+.sobre {
+  text-align: center;
+  color: #ccadf0;
+  font-weight: 200;
+  font-size: 0.938rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+}
+.cards:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+}
