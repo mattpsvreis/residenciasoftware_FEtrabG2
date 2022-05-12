@@ -23,7 +23,7 @@
 }
 
 .top-form p {
-    border: 3px solid black;
+	/*    border: 3px solid black; */
 
     color: #fff;
     font-size: 1.4rem;
@@ -60,7 +60,7 @@
 
 
 .formulario fieldset {
-    border: 3px solid hwb(143 16% 13%);
+/*     border: 3px solid hwb(143 16% 13%); */
     margin: 1rem;
     padding: 0.2rem;
 }
@@ -74,7 +74,7 @@
     margin-top: 0;
     padding: 1rem;
 
-    border: 3px solid hwb(308 18% 30%);
+    /* border: 3px solid hwb(308 18% 30%); */
 
     /*margin-left: 0; */
 }
