@@ -1,3 +1,17 @@
+#nav {
+    position: absolute;
+}
+
+#nav.scroll-up {
+    transition: all 1s;
+    top: 0;
+}
+
+#nav.scroll-down {
+    transition: all 3s;
+    top: -1000px;
+}
+
 .navbar {
     position: fixed;
     height: 80px;
@@ -8,7 +22,7 @@
     top: 0;
     left: 0;
     z-index: 50;
-    padding-block: 50px;
+    padding-block: 70px;
     transition: 0.8s;
 }
 

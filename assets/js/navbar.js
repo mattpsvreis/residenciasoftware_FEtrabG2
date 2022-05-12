@@ -9,7 +9,6 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
-
 // Scroll Effect Navbar
 
 const navbar = document.querySelector('.navbar');
@@ -20,3 +19,25 @@ const navbarScroll = () => {
 }
 
 window.addEventListener('scroll', navbarScroll);
+
+// Scroll Hide Navbar
+
+const nav = document.querySelector('nav');
+const navHeight = document.querySelector('nav').offsetHeight;
+
+let lastScroll = 0;
+
+const navbarScrollShowHide = () => {
+    let currentScroll = window.pageYOffset;
+    if (currentScroll - lastScroll > 0) {
+        nav.classList.add("scroll-down");
+        nav.classList.remove("scroll-up");
+    }
+    else {
+        nav.classList.add("scroll-up");
+        nav.classList.remove("scroll-down");
+    }
+
+    lastScroll = currentScroll;
+}
+window.addEventListener('scroll', navbarScrollShowHide);

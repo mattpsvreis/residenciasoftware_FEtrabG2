@@ -1,0 +1,100 @@
+/* 
+    Container-form
+*/
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin: auto;
+  padding-block: 40px;
+
+  background-color: var(--bgmain);
+}
+
+.formulario {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 80%;
+  margin: auto;
+
+  color: #fff;
+}
+
+.top-form {
+  margin-top: 1rem;
+}
+
+.top-form p {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 3px #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+  color: var(--txtmain);
+}
+
+.formulario fieldset {
+  margin: 1rem;
+  padding: 0.2rem;
+}
+
+.formulario legend {
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.formulario label {
+  display: block;
+  cursor: pointer;
+  padding: 0.1rem;
+}
+
+.formulario textarea {
+  width: 60%;
+  max-width: 400px;
+  max-height: 250px;
+  border-radius: 0.5rem;
+  border-style: groove;
+}
+
+.formulario input {
+  width: 46.5%;
+  border-radius: 0.5rem;
+  height: 1.6rem;
+}
+
+.formulario input.radio, .formulario input.checkbox, .formulario input.submit {
+  width: auto;
+}
+
+.formulario input.radio p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.formulario .radio margin-right {
+  margin-right: 1rem;
+}
+
+input.editbotao {
+  text-align: center;
+  color: #fff;
+  background-color: #3d3a34;
+  border: none;
+  padding: 5px 20px;
+  height: 45px;
+  width: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom, #3d3a34, hsl(268, 96%, 27%));
+  margin-bottom: 1rem;
+}
+
+/* 
+    Container-form
+*/
