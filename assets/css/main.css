@@ -8,9 +8,9 @@
 
 :root {
     --bgmain: #101010;
-    --bgmain2: #64134d;
-    --bgmain3: #332a96;
-    --bgmain4: #000018;
+    --bgmain2: #64134d46;
+    --bgmain3: #332a968e;
+    --bgmain4: #000018d3;
 
     --bgnavbar: #070707;
     --bgtransparent: #101010aa;
@@ -49,6 +49,24 @@ a {
     width: 100%;
     height: 100%;
     padding-inline: 30px;
+}
+
+.section-filmes {
+    background-image: url(../img/filmesbg.jpg);
+    background-size: cover;
+    background-position-x: -150px;
+}
+
+.section-games {
+    background-image: url(../img/gamesbg.jpg);
+    background-size: cover;
+    background-position-x: -150px;
+}
+
+.section-animes {
+    background-image: url(../img/animesbg.jpg);
+    background-size: cover;
+    background-position-x: -150px;
 }
 
 .container-filmes {
@@ -264,7 +282,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -250px 0;
+    object-position: -190px 0;
     border-radius: 15px;
 }
 
