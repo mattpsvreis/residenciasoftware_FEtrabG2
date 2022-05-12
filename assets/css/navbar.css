@@ -198,11 +198,9 @@
         align-items: center;
         position: static;
         width: 200px;
-        /* padding-right: 30px; */
         gap: 40px;
         top: 0%;
         transition: all 0.3s ease-out;
-        /* margin-right: 65px; */
     }
 
     .navbar-item {
