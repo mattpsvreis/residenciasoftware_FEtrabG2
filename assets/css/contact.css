@@ -94,7 +94,7 @@
 
 .formulario textarea {
     width: 100%;
-    /* max-width: 400px; */
+    max-width: 452px;
     max-height: 250px;
     border-radius: 0.5rem;
     border-style: groove;
