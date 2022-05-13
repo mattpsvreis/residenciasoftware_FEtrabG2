@@ -34,12 +34,13 @@
 .englobar {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 2rem;
 
-    width: 90%;
+    /* width: 90%; */
     margin-bottom: 2rem;
+    margin: auto;
 
-    /* border: 2px solid hsl(340, 97%, 38%);  */
+    /* border: 2px solid hsl(340, 97%, 38%); */
     border-radius: 1rem;
     /* border-style: inset; */
 }
@@ -413,7 +414,7 @@ input[type="checkbox"]:checked+.checkmark>span:before {
     /* justify-content: center; */
     flex-direction: column;
 
-    gap: 1rem;
+    /* gap: 1rem; */
     /*     margin: auto; */
     margin-bottom: 1rem;
     /* width: auto; */
@@ -424,12 +425,24 @@ input[type="checkbox"]:checked+.checkmark>span:before {
     color: #fff;
 }
 
+.gps
+{
+    margin-top: 0.5rem;
+    /* border: 2px solid black; */
+}
+
 .rightside p {
-    margin: 1.1rem;
+    /* margin: 1.1rem; */
+    margin: 0;
+    margin-top: 1rem;
+
     padding: 0.4rem;
+    /* padding-top: 6rem; */
     color: #fff;
     font-size: 1.2rem;
     text-shadow: 3px 3px rgb(12, 11, 11);
+
+    /* border: 2px solid yellow; */
 }
 
 .rightside ul {
@@ -438,8 +451,12 @@ input[type="checkbox"]:checked+.checkmark>span:before {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
     /* align-items: center; */
     max-width: 450px;
+
+    /* border: 2px solid green */
 }
 
 .rightside ul li {
