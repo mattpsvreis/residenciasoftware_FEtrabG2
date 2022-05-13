@@ -54,6 +54,7 @@
   border-radius: 50%;
   box-shadow: 0px 0px 15px var(--txtmain2);
   transition: 0.3s;
+  object-fit: cover;
 }
 
 .foto-pessoa:hover {
