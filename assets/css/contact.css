@@ -13,8 +13,8 @@
     margin: auto;
     /* height: 50vh; */
 
-    background-color: gray;
-    border: 2px solid yellow;
+    background-color: var(--bgmain2);
+    /* border: 2px solid yellow; */
 }
 
 
@@ -39,7 +39,7 @@
 
     width: 90%;
 
-    border: 3px solid rgb(32, 196, 236);
+    /* border: 3px solid rgb(32, 196, 236); */
 }
 
 /* Desenvolvimento do formulário no Container-form */
@@ -54,7 +54,7 @@
     /* width: 80%; */
     /* height: 65vh; */
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: #fff;
 }
 
@@ -133,7 +133,7 @@ input.editbotao {
     text-align: center;
     color: #fff;
     background-color: #3D3A34;
-    border: 0.2rem solid hsl(268, 96%, 27%);
+    /* border: 0.2rem solid hsl(268, 96%, 27%); */
     padding: 5px 20px;
     height: 45px;
     width: 50%;
@@ -413,7 +413,7 @@ input[type="checkbox"]:checked+.checkmark>span:before {
     /* padding: 1rem; */
     /* height: 65vh; */
 
-    border: 2px solid #003cff;
+    /* border: 2px solid #003cff; */
     color: #fff;
 }
 
