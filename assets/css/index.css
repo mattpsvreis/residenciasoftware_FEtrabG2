@@ -1,19 +1,19 @@
 .section-filmes {
-    background-image: url(../img/filmesbg.jpg);
+    background-image: url(../img/filmesbgmobile.jpg);
     background-size: cover;
-    background-position-x: -150px;
+    background-position-x: -240px;
 }
 
 .section-games {
-    background-image: url(../img/gamesbg.jpg);
+    background-image: url(../img/gamesbgmobile.jpg);
     background-size: cover;
-    background-position-x: -150px;
+    background-position-x: -240px;
 }
 
 .section-animes {
     background-image: url(../img/animesbg.jpg);
     background-size: cover;
-    background-position-x: -150px;
+    background-position-x: -1935px;
 }
 
 .container-filmes {
@@ -291,6 +291,18 @@
 
 /* RESPONSIVE */
 
+@media screen and (min-width: 375px) {
+    .section-animes {
+        background-position-x: -1905px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .section-animes {
+        background-position-x: -1875px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .filmes, .games, .animes {
         flex-direction: row;
@@ -301,16 +313,60 @@
     .filmes-title h1, .games-title h1, .animes-title h1 {
         font-size: 32px;
     }
+
+    .section-filmes {
+        background-image: url(../img/filmesbg.jpg);
+        background-position-x: -750px;
+    }
+
+    .section-games {
+        
+        background-position-x: -700px;
+    }
+
+    .section-animes {
+        background-image: url(../img/animesbg.jpg);
+        background-position-x: -750px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-filmes, .section-animes {
+        background-position-x: -280px;
+    }
+
+    .section-games {
+        background-image: url(../img/gamesbg.jpg);
+        background-position-x: -280px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .filmes-title h1, .games-title h1, .animes-title h1 {
         font-size: 36px;
     }
+
+    .section-filmes, .section-games, .section-animes {
+        background-position-x: -140px;
+    }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1440px) {
     .filmes {
         gap: 90px;
+    }
+
+    .section-filmes {
+        background-position-x: -105px;
+    }
+
+    .section-animes {
+        background-position-x: -70px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .section-filmes, .section-games, .section-animes {
+        background-position-x: 0px;
     }
 }
