@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/index.css" class="css">
     <link rel="stylesheet" href="./assets/css/navbar.css" class="css">
     <link rel="stylesheet" href="./assets/css/footer.css" class="footer">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
 
     <title>Saturno Geek</title>
 </head>
@@ -45,7 +46,94 @@
     <header id="header">
         <div class="bg-header-main">
             <div class="container-header-main">
-                
+                <div class="app">
+                    <div class="cardList">
+                      <button class="cardList__btn btn btn--left">
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="#arrow-left"></use>
+                          </svg>
+                        </div>
+                      </button>
+                  
+                      <div class="cards__wrapper">
+                        <div class="card current--card">
+                          <div class="card__image">
+                            <img src="./assets/img/carrousel/Filmes.jpg" alt="filmes" />
+                          </div>
+                        </div>
+                  
+                        <div class="card next--card">
+                          <div class="card__image">
+                            <img src="./assets/img/carrousel/Games.png" alt="games" />
+                          </div>
+                        </div>
+                  
+                        <div class="card previous--card">
+                          <div class="card__image">
+                            <img src="./assets/img/carrousel/Animes.jpg" alt="animes" />
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <button class="cardList__btn btn btn--right">
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="#arrow-right"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  
+                    <div class="infoList">
+                      <div class="info__wrapper">
+                        <div class="info current--info">
+                          <h1 class="text name">Filmes</h1>
+                          <p class="text description">O Homem do Norte colocou o elenco em<br>situações extremas: "Foi difícil sobreviver",<br>revela Anya Taylor-Joy</p>
+                          <p class="text description">13.05.2022</p>
+                        </div>
+                  
+                        <div class="info next--info">
+                          <h1 class="text name">Games</h1>
+                          <p class="text description">Silent Hill ressurge em rumores com<br>supostas imagens vazadas</p>
+                          <p class="text description">13.05.2022</p>
+                        </div>
+                  
+                        <div class="info previous--info">
+                          <h1 class="text name">Animes</h1>
+                          <p class="text description">Novo trailer de Blue Lock revela que<br>o anime estreia em outubro</p>
+                          <p class="text description">13.05.2022</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="app__bg">
+                      <div class="app__bg__image current--image">
+                        <img src="./assets/img/carrousel/Filmes.jpg" alt="filmes" />  
+                    </div>
+                      <div class="app__bg__image next--image">
+                        <img src="./assets/img/carrousel/Games.png" alt="games" />
+                      </div>
+                      <div class="app__bg__image previous--image">
+                        <img src="./assets/img/carrousel/Animes.jpg" alt="animes" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <svg class="icons" style="display: none;">
+                    <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                      <polyline points='328 112 184 256 328 400'
+                             style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+                    </symbol>
+                    <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                      <polyline points='184 112 328 256 184 400'
+                             style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+                    </symbol>
+                  </svg>
+                  
+                  <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+                  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+                  <script type="text/javascript" src="script.js"></script>
             </div>
         </div>
     </header>
@@ -62,7 +150,7 @@
                     <div class="filmes-card">
                         <div class="filmes-card-img1">
                             <a href="https://www.einerd.com.br/multiverso-da-loucura-notas-baixas/" target="_blank">
-                                <img src="./assets/img/cards/filmes/drestranho.jpg" alt="Dr. Estranho da Marvel">
+                                <img src="./assets/img/cards/drestranho.jpg" alt="Dr. Estranho da Marvel">
                             </a>
                         </div>
                         <div class="filmes-card-text">
@@ -73,7 +161,7 @@
                     <div class="filmes-card">
                         <div class="filmes-card-img2">
                             <a href="https://www.einerd.com.br/dane-whitman-cavaleiro-da-lua/" target="_blank">
-                                <img src="./assets/img/cards/filmes/cavaleirodalua.jpg" alt="Cavaleiro da Lua">
+                                <img src="./assets/img/cards/cavaleirodalua.jpg" alt="Cavaleiro da Lua">
                             </a>
                         </div>
                         <div class="filmes-card-text">
@@ -84,7 +172,7 @@
                     <div class="filmes-card">
                         <div class="filmes-card-img3">
                             <a href="https://www.einerd.com.br/loki-bissexual-significativo/" target="_blank">
-                                <img src="./assets/img/cards/filmes/loki.jpg" alt="Loki da MCU">
+                                <img src="./assets/img/cards/loki.jpg" alt="Loki da MCU">
                             </a>
                         </div>
                         <div class="filmes-card-text">
@@ -95,7 +183,7 @@
                     <div class="filmes-card">
                         <div class="filmes-card-img4">
                             <a href="https://www.einerd.com.br/cavaleiro-da-lua-sobreviveu-estalo/" target="_blank">
-                                <img src="./assets/img/cards/filmes/cavaleirodalua2.jpg" alt="Cavaleiro da Lua">
+                                <img src="./assets/img/cards/cavaleirodalua2.jpg" alt="Cavaleiro da Lua">
                             </a>
                         </div>
                         <div class="filmes-card-text">
@@ -106,7 +194,7 @@
                     <div class="filmes-card">
                         <div class="filmes-card-img5">
                             <a href="https://www.einerd.com.br/doutor-estranho-2-tom-cruise/" target="_blank">
-                                <img src="./assets/img/cards/filmes/homemdeferro.jpg" alt="Homem de Ferro Superior">
+                                <img src="./assets/img/cards/homemdeferro.jpg" alt="Homem de Ferro Superior">
                             </a>
                         </div>
                         <div class="filmes-card-text">
@@ -117,7 +205,7 @@
                     <div class="filmes-card">
                         <div class="filmes-card-img6">
                             <a href="https://www.einerd.com.br/marco-pigossi-the-boys/" target="_blank">
-                                <img src="./assets/img/cards/filmes/marcospigossi.jpg" alt="Marcos Pigossi sem camisa">
+                                <img src="./assets/img/cards/marcospigossi.jpg" alt="Marcos Pigossi sem camisa">
                             </a>
                         </div>
                         <div class="filmes-card-text">
@@ -193,13 +281,13 @@
                     </div>
                     <div class="games-card">
                         <div class="games-card-img6">
-                            <a href="https://www.einerd.com.br/pokemon-company-ucrania/" target="_blank">
-                                <img src="./assets/img/cards/games/pokemon.jpg" alt="Pikachu chorando">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
                             </a>
                         </div>
                         <div class="games-card-text">
-                            <a href="https://www.einerd.com.br/pokemon-company-ucrania/" target="_blank">Pokémon Company doa dinheiro para vítimas da guerra na Ucrânia</a>
-                            <p><i>04 de março de 2022</i></p>
+                            <a href="" target="_blank"></a>
+                            <p><i>12 de maio de 2022</i></p>
                         </div>
                     </div>
                 </div>
@@ -215,68 +303,68 @@
                 <div class="animes">
                     <div class="animes-card">
                         <div class="animes-card-img1">
-                            <a href="https://www.einerd.com.br/super-hero-nova-forma-de-piccolo/" target="_blank">
-                                <img src="./assets/img/cards/animes/dragonballsuper.jpg" alt="Batalha entre personagens de Dragon Ball Super">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
                             </a>
                         </div>
                         <div class="animes-card-text">
-                            <a href="https://www.einerd.com.br/super-hero-nova-forma-de-piccolo/" target="_blank">Dragon Ball Super: Super Hero novo pôster detalha o visual da nova forma de Piccolo</a>
-                            <p><i>18 de abril de 2022</i></p>
+                            <a href="" target="_blank"></a>
+                            <p><i>12 de maio de 2022</i></p>
                         </div>
                     </div>
                     <div class="animes-card">
                         <div class="animes-card-img2">
-                            <a href="https://www.einerd.com.br/freeza-por-que-voce-matou-o-kuririn/" target="_blank">
-                                <img src="./assets/img/cards/animes/freezameme.jpg" alt="Meme do Freeza matando o Kuririn">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
                             </a>
                         </div>
                         <div class="animes-card-text">
-                            <a href="https://www.einerd.com.br/freeza-por-que-voce-matou-o-kuririn/" target="_blank">Freeza, por que você matou o Kuririn?: explicando o meme para leigos</a>
-                            <p><i>13 de março de 2022</i></p>
+                            <a href="" target="_blank"></a>
+                            <p><i>12 de maio de 2022</i></p>
                         </div>
                     </div>
                     <div class="animes-card">
                         <div class="animes-card-img3">
-                            <a href="https://www.einerd.com.br/boruto-atraso-salarial-processo/" target="_blank">
-                                <img src="./assets/img/cards/animes/boruto.jpg" alt="Boruto lutando">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
                             </a>
                         </div>
                         <div class="animes-card-text">
-                            <a href="https://www.einerd.com.br/boruto-atraso-salarial-processo/" target="_blank">Boruto: diretor do anime quer processar estúdio por atraso salarial há quase 3 anos</a>
-                            <p><i>13 de março de 2022</i></p>
+                            <a href="" target="_blank"></a>
+                            <p><i>12 de maio de 2022</i></p>
                         </div>
                     </div>
                     <div class="animes-card">
                         <div class="animes-card-img4">
-                            <a href="https://www.einerd.com.br/dragon-ball-z-kai-no-hbo-max/" target="_blank">
-                                <img src="./assets/img/cards/animes/dragonballzkai.jpg" alt="Elenco Dragonball Z Kai">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
                             </a>
                         </div>
                         <div class="animes-card-text">
-                            <a href="https://www.einerd.com.br/dragon-ball-z-kai-no-hbo-max/" target="_blank">Dragon Ball Z Kai chega ao HBO Max muito em breve, diz gerente do streaming</a>
-                            <p><i>10 de março de 2022</i></p>
+                            <a href="" target="_blank"></a>
+                            <p><i>12 de maio de 2022</i></p>
                         </div>
                     </div>
                     <div class="animes-card">
                         <div class="animes-card-img5">
-                            <a href="https://www.einerd.com.br/one-piece-netflix-novos-atores/" target="_blank">
-                                <img src="./assets/img/cards/animes/onepiece.jpg" alt="Logo One Piece live action">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
                             </a>
                         </div>
                         <div class="animes-card-text">
-                            <a href="https://www.einerd.com.br/one-piece-netflix-novos-atores/" target="_blank">One Piece: novos atores são confirmados no elenco do live-action da Netflix</a>
-                            <p><i>09 de março de 2022</i></p>
+                            <a href="" target="_blank"></a>
+                            <p><i>12 de maio de 2022</i></p>
                         </div>
                     </div>
                     <div class="animes-card">
                         <div class="animes-card-img6">
-                            <a href="https://www.einerd.com.br/dragon-ball-super-hero-broly-treinamento/" target="_blank">
-                                <img src="./assets/img/cards/animes/dragonballsuperhero.jpg" alt="Broly virando Super Saiyajin">
+                            <a href="" target="_blank">
+                                <img src="" alt="">
                             </a>
                         </div>
                         <div class="animes-card-text">
-                            <a href="https://www.einerd.com.br/dragon-ball-super-hero-broly-treinamento/" target="_blank">Dragon Ball Super: Super Hero vai mostrar o treinamento de Broly?</a>
-                            <p><i>07 de março de 2022</i></p>
+                            <a href="" target="_blank"></a>
+                            <p><i>12 de maio de 2022</i></p>
                         </div>
                     </div>
                 </div>
@@ -306,5 +394,6 @@
 
     <!-- LINKS SCRIPTS -->
     <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/carousel.js"></script>
 </body>
 </html>
