@@ -8,9 +8,8 @@
 
 :root {
     --bgmain: #101010;
-    --bgmain2: #64134d9d;
+    --bgmain2: #64134d46;
     --bgmain3: #332a968e;
-    --bgmain3strong: #332a96e7;
     --bgmain4: #000018d3;
 
     --bgnavbar: #070707;
@@ -18,10 +17,9 @@
     --bgfooter: #070707;
 
     --txtmain: aliceblue;
-    --txtmain2: #ccadf0;
     --txtlow: #f0f8ff75;
 
-    --shadowmain: #b749f7;
+    --shadowmain: #fff; /*#b749f7*/
 }
 
 body {

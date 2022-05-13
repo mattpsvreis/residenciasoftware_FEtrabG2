@@ -1,19 +1,19 @@
 .section-filmes {
-    background-image: url(../img/filmesbgmobile.jpg);
+    background-image: url(../img/filmesbg.jpg);
     background-size: cover;
-    background-position-x: -240px;
+    background-position-x: -150px;
 }
 
 .section-games {
-    background-image: url(../img/gamesbgmobile.jpg);
+    background-image: url(../img/gamesbg.jpg);
     background-size: cover;
-    background-position-x: -240px;
+    background-position-x: -150px;
 }
 
 .section-animes {
     background-image: url(../img/animesbg.jpg);
     background-size: cover;
-    background-position-x: -1935px;
+    background-position-x: -150px;
 }
 
 .container-filmes {
@@ -237,7 +237,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -200px 0;
+    object-position: -250px 0;
     border-radius: 15px;
 }
 
@@ -245,7 +245,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -190px 0;
+    object-position: -250px 0;
     border-radius: 15px;
 }
 
@@ -253,7 +253,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -60px 0;
+    object-position: -250px 0;
     border-radius: 15px;
 }
 
@@ -261,7 +261,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -50px 0;
+    object-position: -250px 0;
     border-radius: 15px;
 }
 
@@ -269,7 +269,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -220px 0;
+    object-position: -170px 0;
     border-radius: 15px;
 }
 
@@ -277,7 +277,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -92px 0px;
+    object-position: -250px 0;
     border-radius: 15px;
 }
 
@@ -285,23 +285,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: -190px 0;
+    object-position: -250px 0;
     border-radius: 15px;
 }
 
 /* RESPONSIVE */
-
-@media screen and (min-width: 375px) {
-    .section-animes {
-        background-position-x: -1905px;
-    }
-}
-
-@media screen and (min-width: 425px) {
-    .section-animes {
-        background-position-x: -1875px;
-    }
-}
 
 @media screen and (min-width: 768px) {
     .filmes, .games, .animes {
@@ -313,60 +301,16 @@
     .filmes-title h1, .games-title h1, .animes-title h1 {
         font-size: 32px;
     }
-
-    .section-filmes {
-        background-image: url(../img/filmesbg.jpg);
-        background-position-x: -750px;
-    }
-
-    .section-games {
-        
-        background-position-x: -700px;
-    }
-
-    .section-animes {
-        background-image: url(../img/animesbg.jpg);
-        background-position-x: -750px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .section-filmes, .section-animes {
-        background-position-x: -280px;
-    }
-
-    .section-games {
-        background-image: url(../img/gamesbg.jpg);
-        background-position-x: -280px;
-    }
 }
 
 @media screen and (min-width: 1280px) {
     .filmes-title h1, .games-title h1, .animes-title h1 {
         font-size: 36px;
     }
-
-    .section-filmes, .section-games, .section-animes {
-        background-position-x: -140px;
-    }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
     .filmes {
         gap: 90px;
-    }
-
-    .section-filmes {
-        background-position-x: -105px;
-    }
-
-    .section-animes {
-        background-position-x: -70px;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    .section-filmes, .section-games, .section-animes {
-        background-position-x: 0px;
     }
 }

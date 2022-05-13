@@ -89,7 +89,6 @@
     opacity: 1;
     transition: all 0.5s ease-out;
     z-index: -1;
-    background: var(--bgnavbar);
 }
 
 .navbar-menu.sticky {
@@ -215,10 +214,6 @@
 
     .navbar-toggle {
         display: none;
-    }
-
-    .navbar-menu {
-        background: 0;
     }
 }
 
