@@ -1,0 +1,104 @@
+body {
+  background-color:  #333;
+}
+.superdiv{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 2rem;
+    gap: 2rem;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  border: 2px solid yellow;
+   
+}
+
+.sobreTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: #ccadf0;
+    font-size: 24px;
+    padding: 1.5rem;
+    background-color: #141c42;
+    border-radius: 5rem;
+    text-align: center;
+}
+
+.cards {
+  background-color: #141c42;
+  width: 90%;
+  height: 10%;
+  position: relative;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  color:white;
+}
+.cards p{
+
+    padding: 2rem;
+    
+}
+.foto {
+  display: flex;
+  justify-content: center;
+}
+.foto-pessoa {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  margin-top: 1.25rem;
+}
+.nome {
+  text-align: center;
+  
+  font-weight: 600;
+  font-size: 1.563rem;
+  font-family: "Poppins";
+  color:white;
+  font-size: 35px;
+}
+.sobre {
+  text-align: center;
+  color:white;
+  font-weight: 200;
+  font-size: 0.938rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  border-radius: 1.25rem;
+}
+.cardsLinks{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    height: 5rem;
+}
+
+
+.cards:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+}
+.sobreTitle:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.1s ease;
+}
+.link img:hover{    
+    filter: brightness(1.2);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.1s ease;
+}
