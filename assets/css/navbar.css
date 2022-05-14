@@ -3,14 +3,14 @@
 }
 
 #nav.scroll-up {
-    transition: all 2s;
+    transition: all 0.7s;
     top: 0%;
     position: fixed;
 }
 
 #nav.scroll-down {
     position: absolute;
-    transition: all 3s;
+    transition: all 0.7s;
     top: -101%;
 }
 
@@ -25,12 +25,16 @@
     left: 0;
     z-index: 50;
     padding-block: 70px;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 .navbar-unique.sticky {
     background-color: var(--bgnavbar);
     padding-block: 0px;
+}
+
+.navbar-unique.active {
+    background-color: var(--bgnavbar);
 }
 
 .container-navbar {
@@ -84,12 +88,12 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    height: 60vh;
     position: absolute;
-    top: -1000px;
+    top: -301%;
     opacity: 1;
-    transition: all 0.5s ease-out;
+    transition: all 0.7s ease-out;
     z-index: -1;
-    background: var(--bgnavbar);
 }
 
 .navbar-menu.sticky {
@@ -102,11 +106,11 @@
 }
 
 .navbar-menu.active {
-    top: 100%;
-    transition: all 0.5s ease-out;
+    top: 140px;
+    transition: all 0.7s ease-out;
     z-index: 99;
-    height: 60vh;
     font-size: 1.6rem;
+    background: var(--bgnavbar);
 }
 
 .navbar-toggle {

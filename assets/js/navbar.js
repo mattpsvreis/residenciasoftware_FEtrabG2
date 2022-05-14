@@ -1,17 +1,17 @@
 // Display Mobile Menu
+const navbar = document.querySelector('.navbar-unique');
 const menu = document.querySelector('#mobile-menu')
-const menuLinks = document.querySelector('.navbar-menu-unique')
+const menuLinks = document.querySelector('.navbar-menu')
 
 const mobileMenu = () => {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
+    navbar.classList.toggle('active');
 }
 
 menu.addEventListener('click', mobileMenu);
 
 // Scroll Effect Navbar
-
-const navbar = document.querySelector('.navbar-unique');
 
 const navbarScroll = () => {
     navbar.classList.toggle("sticky", window.scrollY > 0);
