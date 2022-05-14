@@ -90,7 +90,7 @@
     width: 100%;
     height: 60vh;
     position: absolute;
-    top: -1200px;
+    top: -1000px;
     opacity: 1;
     transition: all 0.7s ease-out;
     z-index: -1;
@@ -106,10 +106,10 @@
     transition: all 0.7s ease-out;
     font-size: 1.6rem;
     background: var(--bgnavbar);
-    z-index: 100;
+    z-index: 99;
 }
 
-.navbar-menu.active.sticky {
+.navbar-menu.sticky {
     background: var(--bgnavbar);
 }
 
