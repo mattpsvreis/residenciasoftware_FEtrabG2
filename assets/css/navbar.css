@@ -14,7 +14,7 @@
     top: -101%;
 }
 
-.navbar {
+.navbar-unique {
     position: fixed;
     height: 80px;
     width: 100%;
@@ -28,7 +28,7 @@
     transition: 0.8s;
 }
 
-.navbar.sticky {
+.navbar-unique.sticky {
     background-color: var(--bgnavbar);
     padding-block: 0px;
 }
@@ -202,6 +202,7 @@
         gap: 40px;
         top: 0%;
         transition: all 0.3s ease-out;
+        margin: 0;
     }
 
     .navbar-item {
