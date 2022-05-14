@@ -46,9 +46,87 @@
     <header id="header">
         <div class="bg-header-main">
             <div class="container-header-main">
-                <div class="carousel">
+                <div class="app">
+                    <div class="cardList">
+                        <button class="cardList__btn btn btn--left">
+                        <div class="icon">
+                            <svg>
+                            <use xlink:href="#arrow-left"></use>
+                            </svg>
+                        </div>
+                        </button>
                     
+                        <div class="cards__wrapper">
+                        <div class="card current--card" onclick="window.open('https://www.adorocinema.com/noticias/filmes/noticia-163502/', 'newtab');">
+                            <div class="card__image">
+                                <img src="./assets/img/carrousel/Filmes.jpg" alt="filmes" />
+                            </div>
+                        </div>
+                    
+                        <div class="card next--card" onclick="window.open('https://www.theenemy.com.br/pc/silent-hill-rumor-imagens-vazadas', 'newtab');">
+                            <div class="card__image">
+                                <img src="./assets/img/carrousel/Games.png" alt="games" />
+                            </div>
+                        </div>
+                    
+                        <div class="card previous--card" onclick="window.open('https://animenew.com.br/novo-trailer-de-blue-lock-revela-que-o-anime-estreia-em-outubro/', 'newtab');">
+                            <div class="card__image">
+                                <img src="./assets/img/carrousel/Animes.jpg" alt="animes" />
+                            </div>
+                        </div>
+                        </div>
+                    
+                        <button class="cardList__btn btn btn--right">
+                        <div class="icon">
+                            <svg>
+                            <use xlink:href="#arrow-right"></use>
+                            </svg>
+                        </div>
+                        </button>
+                    </div>
+                    
+                    <div class="infoList">
+                        <div class="info__wrapper">
+                        <div class="info current--info">
+                            <h1 class="text name">Filmes</h1>
+                            <p class="text description">O Homem do Norte colocou o elenco em<br>situações extremas: "Foi difícil sobreviver",<br>revela Anya Taylor-Joy</p>
+                            <p class="text description">13.05.2022</p>
+                        </div>
+                    
+                        <div class="info next--info">
+                            <h1 class="text name">Games</h1>
+                            <p class="text description">Silent Hill ressurge em rumores com<br>supostas imagens vazadas</p>
+                            <p class="text description">13.05.2022</p>
+                        </div>
+                    
+                        <div class="info previous--info">
+                            <h1 class="text name">Animes</h1>
+                            <p class="text description">Novo trailer de Blue Lock revela que<br>o anime estreia em outubro</p>
+                            <p class="text description">13.05.2022</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="app__bg">
+                        <div class="app__bg__image current--image">
+                        </div>
+                        <div class="app__bg__image next--image">
+                        </div>
+                        <div class="app__bg__image previous--image">
+                        </div>
+                    </div>
                 </div>
+
+                <svg class="icons" style="display: none;">
+                <symbol id="arrow-left" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+                    <polyline points="328 112 184 256 328 400"
+                            style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px" />
+                </symbol>
+                <symbol id="arrow-right" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+                    <polyline points="184 112 328 256 184 400"
+                            style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px" />
+                </symbol>
+                </svg>
             </div>
         </div>
     </header>
@@ -308,6 +386,9 @@
     </footer>
 
     <!-- LINKS SCRIPTS -->
+    <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
     <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/carousel.js"></script>
 </body>
 </html>
