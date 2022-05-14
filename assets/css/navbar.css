@@ -93,11 +93,7 @@
     top: -301%;
     opacity: 1;
     transition: all 0.7s ease-out;
-    z-index: -1;
-}
-
-.navbar-menu.sticky {
-    background: var(--bgnavbar);
+    z-index: 100;
 }
 
 .navbar-menu li {
@@ -108,8 +104,13 @@
 .navbar-menu.active {
     top: 140px;
     transition: all 0.7s ease-out;
-    z-index: 99;
     font-size: 1.6rem;
+    background: var(--bgnavbar);
+    z-index: 100;
+}
+
+.navbar-menu.active.sticky {
+    top: 80px;
     background: var(--bgnavbar);
 }
 
