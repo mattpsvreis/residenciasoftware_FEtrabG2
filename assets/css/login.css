@@ -14,31 +14,8 @@
 }
 
 /*
-  Fontes
-*/
-
-@font-face {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-}
-
-
-
-/*
   Zerar estilos
 */
-
-* {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
-}
-
-body, html {
-	height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-	
-}
 
 ul, li {
 	margin: 0px;
@@ -250,7 +227,7 @@ button:hover {
   Links - Login utils
 */
 
-a {
+.text2 a {
 	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
@@ -259,11 +236,11 @@ a {
 	transition: all 0.4s;
 }
 
-a:focus {
+.text2 a:focus {
 	outline: none !important;
 }
 
-a:hover {
+.text2 a:hover {
 	text-decoration: none;
   color: var(--highligth-text);
 }
